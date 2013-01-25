@@ -1,0 +1,1269 @@
+body
+{
+ background-color: #f1f1f1;
+}
+
+.bottom-push
+{
+ height: 0px;
+ width: 100%;
+ background-color: transparent;
+}
+
+.wt-body-wrapper
+{
+ padding: 0px;
+ background-color: #fff;
+ margin-left: auto;
+ margin-right: auto;
+ padding-top: 25px;
+ width: 1201px;
+ -moz-box-shadow: 1px 1px 10px 2px #bbb;
+ -webkit-box-shadow: 1px 1px 10px 2px #bbb;
+ box-shadow: 1px 1px 10px 2px #bbb;
+ padding-bottom: 25px;
+}
+
+.header-wrapper
+{
+ width: 1201px;
+}
+
+.wrapper
+{
+ width: 1201px;
+ margin-left: auto;
+ margin-right: auto; 
+}
+
+.homepage-header-link
+{
+	text-decoration: none;
+	color: #000!important;
+}
+
+.homepage-header-link:hover
+{
+	color: #f1612a!important;
+}
+
+a
+{
+ cursor: pointer;
+}
+
+.project-page-title
+{
+ padding-bottom: 10px;
+ border-bottom: 1px solid #000;
+ margin-bottom: 10px;
+}
+
+.project-page-title > h3
+{
+font-weight: normal;
+font-style: normal;
+font-family: 'StymieSBOP-LightRegular', 'verdana';
+font-size: 20px;
+color: black;
+line-height: 24px
+}
+
+.project-page-title > span
+{
+ font-family: 'StymieSBOP-LightRegular', 'verdana';
+ font-size: 12px;
+ color: #666666;
+}
+
+.stay-orange
+{
+ color: #f1612a!important;
+}
+
+/* sidebar menu */
+
+.sidebar-submenu > li > a > h3
+{
+ color: #666666!important;
+}
+
+.sidebar-submenu
+{
+ padding-top: 8px;
+ padding-bottom: 8px;
+}
+
+
+/* tabs */
+.tabs > li
+{
+ border-right: 1px solid #000;
+ border-top: 1px solid #000;
+ padding-top: 2px;
+ padding-right: 5px;
+ padding-left: 2px;
+ display: inline-block;
+ margin-left: 3px;
+ font-family:'Humanist521TL-Light', 'verdana';
+ text-transform:uppercase;
+ letter-spacing:0.08em;
+ font-size: 13px;
+ cursor: pointer;
+}
+
+.tabs > li.first
+{
+ border-left: 1px solid #000;
+ padding-top: 2px;
+ padding-left: 5px;
+}
+
+/* header */
+div.wt-header
+{
+ width: 1201px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: 20px;
+}
+
+.header-menu
+{
+ margin-left: 259px;
+ float: left;
+ margin-top: 36px;
+}
+
+.header-menu-item
+{
+ background-image: url(../img/new_nav_black.png);
+ width: 93px;
+ height: 22px;
+ display: block;
+ float: left;
+}
+
+.header-menu-item.item-news
+{
+ background-position: 94px 0px;
+}
+
+.header-menu-item.item-blog
+{
+ background-position: 188px 0px;
+}
+
+.header-menu-item:hover
+{
+ background-image: url(../img/new_nav_orange.png);
+}
+
+.logo
+{
+ margin-left: 360px;
+ width: 303px;
+ height: 58px;
+ background: url(../img/logo.png);
+ float: left;
+}
+
+/* banners (all pages except home) */
+.slideshow-rule
+{
+ background-image: url(../img/slideshow-rule.png);
+ width: 211px;
+ height: 2px;
+}
+
+.banner-slideshow-controls
+{
+ width: 212px;
+ margin-right: 25px;
+ margin-top: 250px;
+}
+
+.slideshow-left
+{
+ width: 7px;
+ height: 9px;
+ background-image: url(../img/slideshow-left.png);
+ display: block;
+ cursor: pointer;
+}
+
+.slideshow-right
+{
+ width: 7px;
+ height: 9px;
+ background-image: url(../img/slideshow-right.png);
+ display: block;
+ cursor: pointer;
+}
+
+.banner-numbers
+{
+ margin-top: 10px;
+}
+
+.banner-numbers .number
+{
+ padding: 2px;
+ display: inline-block;
+ border: 0;
+ cursor: pointer;
+ 
+ -webkit-user-select: none;
+ -moz-user-select: none;
+}
+
+.banner-numbers .number .coda-num:hover
+{
+ background-image: url(../img/numbers_lightest.png)!important;
+}
+
+.banner-numbers .number .lighter
+{
+ background-image: url(../img/numbers_lighter.png)!important;
+}
+
+.banner-numbers .number .lightest
+{
+ background-image: url(../img/numbers_lightest.png)!important;
+}
+
+
+.banner-numbers .number .num1
+{
+ background-image: url(../img/numbers.png);
+ width: 5px;
+ height: 11px;
+ background-position: 0px; 0px;
+}
+
+.banner-numbers .number .num2
+{
+ background-image: url(../img/numbers.png);
+ width: 10px;
+ height: 11px;
+ background-position: 142px; 0px;
+}
+
+.banner-numbers .number .num3
+{
+ background-image: url(../img/numbers.png);
+ width: 10px;
+ height: 11px;
+ background-position: 122px; 0px;
+}
+
+.banner-numbers .number .num4
+{
+ background-image: url(../img/numbers.png);
+ width: 10px;
+ height: 11px;
+ background-position: 103px; 0px;
+}
+
+.banner-numbers .number .num5
+{
+ background-image: url(../img/numbers.png);
+ width: 10px;
+ height: 11px;
+ background-position: 84px; 0px;
+}
+
+.banner-numbers .number .num6
+{
+ background-image: url(../img/numbers.png);
+ width: 10px;
+ height: 11px;
+ background-position: 65px; 0px;
+}
+
+.banner-numbers .number .num7
+{
+ background-image: url(../img/numbers.png);
+ width: 10px;
+ height: 11px;
+ background-position: 46px; 0px;
+}
+
+.banner-numbers .number .num8
+{
+ background-image: url(../img/numbers.png);
+ width: 10px;
+ height: 11px;
+ background-position: 27px; 0px;
+}
+
+.banner-numbers .number .num9
+{
+ background-image: url(../img/numbers.png);
+ width: 10px;
+ height: 11px;
+ background-position: 10px; 0px;
+}
+
+.banner
+{
+ margin-left: auto;
+ margin-right: auto;
+ width: 1201px;
+ height: 235px;
+}
+
+.banner-450
+{
+ margin-left: auto;
+ margin-right: auto;
+ width: 1201px;
+ height: 525px!important;
+ position: relative;
+}
+
+.banner-coda-slider
+{
+ position: absolute;
+ top: 0px;
+ left: 0px;
+ width: 100%;
+ height: 100%;
+}
+
+.banner_1
+{
+ background-image: url(../img/banners/banner_1.png);
+}
+
+.banner_2
+{
+ background-image: url(../img/banners/banner_2.png);
+}
+
+.banner_3
+{
+ background-image: url(../img/banners/banner_3.png);
+}
+
+.banner-big
+{
+ height: 525px;
+}
+
+.banner-slider
+{
+ margin-left: 0px!important;
+ margin-right: 0px!important;
+}
+
+/* fix banner-menu-container to support display of right side opaque box. */
+
+.magislide > li
+  {
+   position: relative;
+   float: left;
+   margin: 0;
+   padding: 0;
+  }
+
+/* the banner slider */
+.banner-sliding-container
+{
+ position: absolute;
+ top: 135px;
+ left: 0px;
+ width: 100%;
+ background-color: #2b2b2b;
+ height: 525px;
+ overflow: hidden;
+}
+
+/* banner menu */
+.banner-overlay
+{
+ width: 260px;
+ opacity: 0.75;
+ filter: alpha(opacity=75);
+ -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+ background-color: #000;
+ height: 235px;
+ z-index: 1000;
+}
+
+.banner-overlay-big
+{
+ position: absolute;
+ top: 0px;
+ left: 0px;
+ height: 525px!important;
+}
+
+.banner-menu-container
+{
+ opacity: 1;
+ padding: 17px;
+ padding-right: 25px;
+}
+
+.banner-menu
+{
+ background-image: url(../img/banner_menu/banner-menu.png);
+ width: 212px;
+ height: 166px;
+}
+
+.banner-menu-item
+{
+ background-image: url(../img/banner_menu/banner-menu.png);
+ width: 212px;
+ height: 33px;
+ display: block;
+}
+
+/* banner items */
+.banner-menu-item.architecture
+{
+ height: 33px;
+ background-position: 0px 0px;
+}
+
+.banner-menu-item.innovation
+{
+ height: 33px;
+ background-position: 0px -32px;
+}
+
+.banner-menu-item.planning
+{
+ height: 33px;
+ background-position: 0px -65px;
+}
+
+.banner-menu-item.landscape
+{
+ background-position: 0px -98px;
+}
+
+.banner-menu-item.interior
+{
+ background-position: 0px -130px;
+ height: 33px;
+}
+
+.banner-menu-item.graphicdesign
+{
+ background-position: 0px -162px;
+ height: 37px;
+}
+
+.banner-menu-item:hover
+{
+ background-image: url(../img/banner_menu/banner-menu-hover.png);
+ width: 212px;
+}
+
+.banner-menu-item-selected
+{
+ background-image: url(../img/banner_menu/banner-menu-hover.png);
+ width: 212px;
+}
+
+.banner-submenu
+{
+ opacity: 1;
+ background-color: #000;
+ width: 139px;
+ position: absolute;
+ display: none;
+ opacity: 0.75;
+ filter: alpha(opacity=75);
+ -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+ z-index: 3000;
+}
+
+.banner-submenu-link
+{
+	color: #808285;
+}
+
+.banner-submenu-link:visited
+{
+	color: #808285;
+}
+
+.banner-submenu-link:hover
+{
+	color: #fff;
+}
+
+.submenu-container
+{
+ padding: 5px;
+}
+
+.submenu-menu > li
+{
+ display: block;
+}
+
+.submenu-menu > li:hover
+{
+ color: #f1612a;
+}
+
+.submenu-menu
+{
+ margin: 0;
+ padding: 0;
+}
+
+.menu-rule
+{
+ background-image: url(../img/menu-rule.png);
+ height: 3px;
+ width: 384px;
+ position: absolute;
+ display: none;
+ z-index: 5000;
+}
+
+/* util */
+.no-margin
+{
+ margin: 0!important;
+}
+
+.ninesixty
+{
+ width: 960px;
+}
+
+.show-border
+{
+ border: 1px solid #000;
+}
+
+.center
+{
+ margin-left: auto;
+ margin-right: auto;
+}
+
+/* page container */
+.page-container
+{
+ margin-top: 25px;
+}
+
+/* sidebar */
+.sidebar-container
+{
+ width: 259px;
+ float: left;
+}
+
+.sidebar
+{
+ padding-left: 5px;
+}
+
+.sidebar-contents
+{
+ margin-right: 20px;
+}
+
+.search-box
+{
+ border: 1px solid #b3b3b3;
+ width: 215px;
+ /* height: 21px!important; */
+ font-family: verdana;
+ font-size: 12px;
+ color: #B3B3B3;
+ padding: 4px;
+ margin: 0px;
+ margin-bottom: 20px;
+}
+
+.sidebar-search-results
+{
+	margin-bottom: 15px;
+}
+
+.sidebar-search-noresults
+{
+	color: #666!important;
+}
+
+.sidebar-list > li
+{
+ height: 20px;
+}
+
+.sidebar-list > li > a > h3
+{
+   font-family:'Humanist521TL-Roman', 'verdana';
+   font-weight: normal;
+   letter-spacing: .08em;
+   font-style: normal;
+   font-size: 13px;
+}
+
+.sidebar-submenu-submenu
+{
+ margin-top: 5px;
+}
+
+.sidebar-submenu-list > li
+{
+ height: 20px;
+}
+
+.sidebar-submenu-list > li
+{
+ padding-right: 5px;
+}
+
+.sidebar-submenu-list > li > a > h3
+{
+ font-weight: normal;
+ font-size: 11px;
+ font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+}
+
+.sidebar-submenu > li > a > h3 { font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif!important; }
+
+.sidebar-item-expanded
+{
+ height: auto!important;
+}
+
+/* content container */
+.content-container
+{
+ float: left;
+ width: 900px;
+}
+
+.column-item-container
+{
+ border-left: 1px solid #000;
+ padding-left: 20px;
+ float: left;
+ width: 400px;
+}
+
+.content-item-container
+{
+ border-left: 1px solid #000;
+ padding-left: 15px;
+ margin-bottom: 30px;
+}
+
+.content-item
+{
+ 
+}
+
+.content-item-container > h2
+{
+ margin-bottom: 15px;
+}
+
+.content-item-container > a > h2
+{
+ margin-bottom: 15px;
+}
+
+/* about page */
+
+#about_blocks
+{
+ margin-bottom: 20px;
+}
+
+.about-block-first
+{
+ margin-left: 0px!important;
+}
+
+.about-block
+{
+ float: left;
+ width: 280px;
+ min-height: 50px;
+ margin-left: 20px;
+}
+
+.about-block > p
+{
+ margin-top: 4px;
+ line-height: 18px;
+}
+
+.about-page > .tabs
+{
+ margin-top: 25px;
+}
+
+.about-page .project-data
+{
+ margin-top: 15px;
+ font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+}
+
+/* staff page */
+.staff-image
+{
+ margin-bottom: 20px;
+ background-color: #eee; /* debug */
+}
+
+.staff-quote
+{
+ margin-bottom: 15px;
+}
+
+.staff-position
+{
+	font-size: 13px!important;
+}
+
+.staff-left
+{
+ width: 350px;
+ min-height: 50px;
+ float: left;
+}
+
+.staff-right
+{
+ width: 300px;
+ min-height: 200px;
+ float: left;
+ margin-left: 25px;
+}
+
+.staff-block
+{
+ margin-top: 20px;
+}
+
+.staff-block-title
+{
+ margin-bottom: 10px;
+}
+
+.past-projects > li
+{
+ margin-top: 10px;
+}
+
+.past-projects > li > .title
+{
+ margin-bottom: 5px;
+}
+
+/* news page */
+.content-item-image
+{
+ width: 330px;
+ height: 222px;
+ float: left;
+ /* background-image: url(http://placehold.it/330x222); */
+}
+
+.content-item-body
+{
+ margin-left: 20px;
+ float: left;
+ width: 530px;
+}
+
+.content-item-article-header > .date
+{
+ font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+ display: block;
+ font-size: 11px;
+ color: #000;
+ margin-bottom: 2px;
+}
+
+.content-item-article-header > .author
+{
+ font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+ display: block;
+ font-size: 11px;
+ color: #000;
+ font-weight: 600;
+ line-height: 20px;
+}
+
+.content-item-content
+{
+ height: 205px;
+}
+
+.content-item-article
+{
+ margin-top: 20px;
+}
+
+.content-item-article
+{
+ font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+ display: block;
+ font-size: 12px;
+ color: #000;
+ line-height: 20px;
+}
+
+/* bottom of news page lists */
+.recent-awards
+{
+ margin-top: 8px;
+}
+
+.recent-awards > li
+{
+ margin-bottom: 15px;
+ width: 400px;
+}
+
+.recent-awards > li > .title
+{
+ font-family: 'StymieSBOP-LightRegular', 'verdana';
+ font-size: 14px;
+ color: #f1612a;
+}
+
+.recent-awards > li > p
+{
+ font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+ display: block;
+ font-size: 12px;
+ color: #000;
+ margin-top: 5px;
+ margin-right: 150px;
+}
+
+/* publication page */
+.publication-content > p
+{
+ margin-bottom: 15px;
+ font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+ display: block;
+ font-size: 14px;
+ color: black;
+ line-height: 20px;
+}
+
+/* project page */
+.project-page-container
+{
+ width: 960px;
+}
+
+.project-page-left
+{
+ float: left;
+ width: 250px;
+}
+
+.project-page-right
+{
+ float: left;
+ width: 650px;
+ margin-left: 20px;
+}
+
+.project-page-right > .pagecontent
+{
+ margin-left: 3px;
+ margin-top: 10px;
+}
+
+.project-page-right > .pagecontent > p
+{
+ font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+ display: block;
+ font-size: 12px;
+ color: black;
+ line-height: 20px;
+ margin-top: 15px;
+}
+
+.project-data > p
+{
+ font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+ display: block;
+ font-size: 12px;
+ color: black;
+ line-height: 18px;
+ margin-top: 15px;
+ margin-right: 20px
+}
+
+.project-page-left > h3
+{
+ font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+ font-size: 12px;
+ line-height: 20px;
+}
+
+.project-data-list
+{
+ padding-bottom: 15px;
+ border-bottom: 1px solid #000;
+ margin-bottom: 20px;
+}
+
+.project-data-list > p
+{
+ margin-top: 5px;
+}
+
+.project-data-list > p
+{
+ font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+ font-size: 12px;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+
+.project-data-tags
+{
+ font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+ font-size: 12px;
+}
+
+/* home / showcase page */
+.showcase-page-container
+{
+ width: 900px;
+ padding-left: 5px;
+}
+
+.showcase-news-image
+{
+ float: left;
+ width: 225px;
+ height: 225x;
+}
+
+.showcase-news-image > img
+{
+ width: 225px;
+ height: 123px;
+}
+
+.showcase-news-content
+{
+ float: left;
+ margin-left: 15px;
+ width: 660px;
+ margin-top: -5px;
+}
+
+.showcase-news-content > h2
+{
+}
+
+.showcase-news-content > h3
+{
+	margin-top: 4px;
+}
+
+.showcase-news-content > p
+{
+ font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+ font-size: 12px;
+ line-height: 18px;
+ margin-top: 10px;
+}
+
+/* showcase lower content */
+.showcase-lower
+{
+ margin-top: 25px;
+}
+
+.showcase-blog-content
+{
+ float: left;
+ width: 450px;
+}
+
+.showcase-blog-content > h2
+{
+ margin-bottom: 5px;
+ margin-top: -11px;
+}
+
+.showcase-blog-content > p
+{
+ font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+ font-size: 12px;
+ margin-top: 0px;
+ line-height: 18px;
+}
+
+.showcase-staff
+{
+ margin-left: 20px;
+ margin-top: -5px;
+ border-left: 1px solid #000;
+ float: left;
+ width: 400px;
+ padding-left: 20px;
+ 
+}
+
+.showcase-staff-content > h2
+{
+ margin-bottom: 8px;
+ margin-top: -2px;
+}
+
+.showcase-staff-image
+{
+ float: left;
+ width: 105px;
+}
+
+.showcase-staff-image > img
+{
+ width: 105px;
+ height: 117px;
+}
+
+.showcase-staff-content
+{
+ font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+ font-size: 12px;
+ float: left;
+ margin-left: 20px;
+ width: 270px;
+ line-height: 18px;
+}
+
+.showcase-staff-content > p
+{
+ margin-top: 10px;
+ line-height: 18px;
+}
+
+/* archive section */
+.archive-articles
+{
+ padding-left: 20px;
+ width: 300px;
+ border-left: 1px solid #000;
+ float: left;
+}
+
+.archive-desc
+{
+ font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+ font-size: 12px;
+ margin-top: 15px;
+}
+
+.archive-press
+{
+ float: left;
+ width: 300px;
+ margin-left: 60px;
+ border-left: 1px solid #000;
+ padding-left: 20px;
+}
+
+.archive-article
+{
+ margin-top: 15px;
+}
+
+.archive-article > h3
+{
+ color: #f1612a;
+ font-size: 14px;
+ font-weight: bold;
+ font-style: normal;
+}
+
+.archive-article > .title
+{
+ font-size: 14px;
+ color: #f1612a;
+ font-family: 'StymieSBOP-LightRegular', 'verdana';
+ margin-top: 5px;
+}
+
+.archive-article > .author
+{
+ font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+ font-size: 12px;
+ margin-top: 5px;
+}
+
+/* people page */
+.people-left
+{
+ width: 330px;
+ float: left;
+ padding-left: 15px;
+ border-left: 1px solid #000;
+ margin-right: 15px;
+}
+
+.people-image
+{
+}
+
+.people-image > img
+{
+ width: 345px;
+ height: 240px;
+}
+
+.people-right
+{
+ width: 340px;
+ float: left;
+}
+
+
+/* footer */
+.wt-footer
+{
+ width: 100%;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 30px;
+}
+
+.wt-footer > .bar
+{
+ background-color: #f1612a;
+ height: 19px;
+ padding-top: 6px;
+}
+
+.wt-footer > .bar > p
+{
+ color: #fff;
+ font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+ font-size: 11px;
+}
+
+.wt-footer > .underneath
+{
+ margin-top: 10px;
+}
+
+.wt-footer > .underneath > p
+{
+ margin-top: 5px;
+ font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+ font-size: 11px;
+ color: #f1612a;
+}
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+
+.clearfix:before,
+.clearfix:after,
+.container_12:before,
+.container_12:after {
+  content: '.';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after,
+.container_12:after {
+  clear: both;
+}
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+
+.clearfix,
+.container_12 {
+  zoom: 1;
+}
+
+/*
+ jQuery Coda-Slider v2.0 - http://www.ndoherty.biz/coda-slider
+ Copyright (c) 2009 Niall Doherty
+ This plugin available for use in all personal or commercial projects under both MIT and GPL licenses.
+*/
+/* Most common stuff you'll need to change */
+/* Most common stuff you'll need to change */
+ .coda-slider { background: #000; }
+ 
+ #homepage_coda_slider { width: 100%; }
+ 
+ /* Use this to keep the slider content contained in a box even when JavaScript is disabled */
+ .coda-slider-no-js .coda-slider { height: 200px; overflow: auto !important; padding-right: 20px }
+ 
+ /* Change the width of the entire slider (without dynamic arrows) */
+ .coda-slider, .coda-slider .panel { width: 600px } 
+ 
+ /* Change margin and width of the slider (with dynamic arrows) */
+ .coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel { width: 600px }
+ .coda-slider-wrapper.arrows .coda-slider { margin: 0 10px }
+ 
+ /* Arrow styling */
+ .coda-nav-left a, .coda-nav-right a { background: #000; color: #fff; padding: 5px; width: 100px }
+ 
+ /* Tab nav */
+ .coda-nav ul li a.current { background: #39c }
+ 
+ /* Panel padding */
+ .coda-slider .panel-wrapper { padding: 20px }
+ 
+ /* Preloader */
+ .coda-slider p.loading { padding: 20px; text-align: center }
+
+/* Don't change anything below here unless you know what you're doing */
+
+ /* Tabbed nav */
+ .coda-nav ul { clear: both; display: block; margin: auto; overflow: hidden }
+ .coda-nav ul li { display: inline }
+ .coda-nav ul li a { background: #000; color: #fff; display: block; float: left; margin-right: 1px; padding: 3px 6px; text-decoration: none }
+ 
+ /* Miscellaneous */
+ .coda-slider-wrapper { clear: both; overflow: auto }
+ .coda-slider { float: left; overflow: hidden; position: relative }
+ .coda-slider .panel { display: block; float: left }
+ .coda-slider .panel-container { position: relative }
+ .coda-nav-left, .coda-nav-right { float: left }
+ .coda-nav-left a, .coda-nav-right a { display: block; text-align: center; text-decoration: none }
+ 
+ #facebox
+ {
+	z-index: 100000!important;
+ }
