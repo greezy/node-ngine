@@ -24,6 +24,7 @@ ngine.sprite = ngine.sprite || {};
 		
 		render: function(canvas)
 		{
+			console.log("SPRITE RENDERING");
 			if (this.manager != null && this.manager.ignoreOffsets != true) this.renderOffset = this.manager.renderOffset;
 			canvas.context.drawImage(this.image, (this.renderOffset.x+this.position.x), (this.renderOffset.y+this.position.y));
 		}

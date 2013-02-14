@@ -241,10 +241,10 @@ ngine.iso = ngine.iso || {};
 			{
 				// call parent
 				this.parent();
+				
+				// flip buffer to context
+				this.flipBuffer();
 			}
-			
-			// flip buffer to context
-			this.flipBuffer();
 			
 		}
 	});

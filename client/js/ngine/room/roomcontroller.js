@@ -65,21 +65,29 @@ ngine.room = ngine.room || {};
 		// public
 		render: function()
 		{
-			// set render offset
-			this.object_manager.renderOffset = this.tilemap_manager.renderOffset;
-		
-			// clear layers that need to be cleared
-			this.canvas_manager.clear();
-			this.sprite_manager.clear();
+			if (this.scene_has_changed == undefined) this.scene_has_changed = true;
 			
-			// draw tile & object layer
-			this.tilemap_manager.render();
+			if (this.scene_has_changed)
+			{
+				// set render offset
+				this.object_manager.renderOffset = this.tilemap_manager.renderOffset;
 			
-			if(this.tilemap_manager.hoverSprite != undefined && this.tilemap_manager.hoverSprite.visible) this.tilemap_manager.hoverSprite.render(this.sprite_manager.canvas);
-			this.object_manager.render();
-			
-			// flip buffer
-			this.sprite_manager.flipBuffer();
+				// clear layers that need to be cleared
+				this.canvas_manager.clear();
+				this.sprite_manager.clear();
+				
+				// draw tile & object layer
+				this.tilemap_manager.render();
+				
+				if(this.tilemap_manager.hoverSprite != undefined && this.tilemap_manager.hoverSprite.visible) 
+					this.tilemap_manager.hoverSprite.render(this.sprite_manager.canvas);
+				
+				// 
+				this.object_manager.render();
+				
+				// flip buffer
+				this.sprite_manager.flipBuffer();
+			}s
 		},
 		
 		setSize: function(new_size)

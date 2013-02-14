@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+    <head>
+		<title>Node + ngine 3 test</title>
+		<script type="text/javascript" src="http://192.168.1.8:8081/socket.io/socket.io.js"></script>
+		<script type="text/javascript" src="lib/mootools-core-1.4.5.js"></script>
+		
+		<style type="text/css">
+			body { margin: 0; padding: 0; background-color: #222; overflow:hidden; }
+			canvas { background-color: #222; }
+		</style>
+		
+		<script type="text/javascript">
+			var GameConfig = {};
+            GameConfig.TARGET_FPS = 15; // FPS Target
+		</script>
+	</head>
+	<body>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript">
+            // load all the scripts
+            $script.path('/js/');
+            
+            // load the graphics bundle
+            $script(['ngine/sprite/sprite', 'ngine/sprite/flatsprite', 'ngine/manager/canvas', 'ngine/manager/eventmanager', 'ngine/manager/spritemanager'], 'graphics');
+			
+            $script.ready('graphics', function()
+            {
+                // Initialize the test game
+                var canvas_manager = new ngine.manager.Canvas();
+            	document.body.appendChild(canvas_manager.canvas);
+                
+                window.canvas_manager = canvas_manager;
+                
+                // load the game
+                $script('engine', function()
+                {
+                    Game.Engine.Load(function()
+                    {
+                        Game.Engine.Start();
+						$script('multiplayer');
+                    });
+                });
+            });
+        </script>
+	</body>
+</html>

@@ -123,6 +123,8 @@ ngine.manager = ngine.manager || {};
 			}
 			
 			//this.target.clear();
+			//
+			
 			this.flipBuffer();
 		},
 		
